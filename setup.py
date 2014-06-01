@@ -45,4 +45,6 @@ setup(
     ],
     keywords='progressbar progress bar',
     packages=['minibar'],
+    tests_require=['pyshould', 'nose'],
+    test_suite='nose.collector',
 )
